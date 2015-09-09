@@ -1,29 +1,48 @@
-/* line 13, main.scss */
-h1 {
-  font-size: 1.7em;
-  padding: 20px;
+/* line 12, main.scss */
+body {
+  font-family: 'Lato', sans-serif;
 }
 
-/* line 18, main.scss */
+/* line 16, main.scss */
+h1 {
+  font-size: 2em;
+  padding: 20px;
+  font-weight: 900;
+}
+
+/* line 22, main.scss */
+h2 {
+  font-size: 1.5em;
+  padding: 20px;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+/* line 29, main.scss */
 p {
   padding: 20px;
   font-size: 1.1em;
   line-height: 1.2em;
 }
 
-/* line 24, main.scss */
+/* line 35, main.scss */
+li {
+  padding: 10px 20px;
+}
+
+/* line 39, main.scss */
 a {
   padding: 20px;
 }
 
-/* line 28, main.scss */
+/* line 43, main.scss */
 body {
   margin: 0;
   height: 99vh;
   background: black;
 }
 
-/* line 34, main.scss */
+/* line 49, main.scss */
 .paint {
   width: 95%;
   height: 94%;
@@ -31,12 +50,12 @@ body {
   margin: 20px auto;
 }
 
-/* line 41, main.scss */
+/* line 56, main.scss */
 table {
   float: left;
 }
 
-/* line 45, main.scss */
+/* line 60, main.scss */
 td {
   width: 4px;
   height: 4px;
@@ -44,7 +63,7 @@ td {
   cursor: crosshair;
 }
 
-/* line 52, main.scss */
+/* line 67, main.scss */
 .menu {
   background-color: rgba(0, 0, 0, 0.1);
   height: 660px;
@@ -52,7 +71,7 @@ td {
   float: right;
 }
 
-/* line 59, main.scss */
+/* line 74, main.scss */
 .blabla {
   float: right;
   width: 402px;
@@ -60,7 +79,7 @@ td {
   background-color: #fff;
 }
 
-/* line 66, main.scss */
+/* line 81, main.scss */
 .palette {
   height: 100%;
   width: 90px;
@@ -68,7 +87,7 @@ td {
   float: left;
 }
 
-/* line 73, main.scss */
+/* line 88, main.scss */
 .color {
   width: 50px;
   height: 50px;
@@ -79,47 +98,47 @@ td {
   cursor: pointer;
 }
 
-/* line 83, main.scss */
+/* line 98, main.scss */
 .k {
   background-color: #000;
 }
 
-/* line 87, main.scss */
+/* line 102, main.scss */
 .b {
   background-color: #0687f8;
 }
 
-/* line 91, main.scss */
+/* line 106, main.scss */
 .r {
   background-color: #f80606;
 }
 
-/* line 95, main.scss */
+/* line 110, main.scss */
 .g {
   background-color: #37d100;
 }
 
-/* line 99, main.scss */
+/* line 114, main.scss */
 .y {
   background-color: #fcdb02;
 }
 
-/* line 103, main.scss */
+/* line 118, main.scss */
 .p {
   background-color: #bd02fc;
 }
 
-/* line 107, main.scss */
+/* line 122, main.scss */
 .o {
   background-color: #fc5102;
 }
 
-/* line 111, main.scss */
+/* line 126, main.scss */
 .n {
   background-color: #892b00;
 }
 
-/* line 115, main.scss */
+/* line 130, main.scss */
 .w {
   background-color: #fff;
 }

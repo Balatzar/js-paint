@@ -9,16 +9,31 @@ $brown: #892b00;
 $white: #fff;
 $black: #000;
 
+body {
+    font-family: 'Lato', sans-serif;
+}
 
 h1 {
-    font-size : 1.7em;
+    font-size : 2em;
     padding: 20px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding: 20px;
+    padding-bottom: 10px;
+    font-weight: 700;
 }
 
 p {
     padding: 20px;
     font-size: 1.1em;
     line-height: 1.2em;
+}
+
+li {
+    padding: 10px 20px;
 }
 
 a {
