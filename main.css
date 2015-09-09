@@ -1,106 +1,125 @@
+/* line 13, main.scss */
 h1 {
-    font-size : 1.7em;
-    padding: 20px;
+  font-size: 1.7em;
+  padding: 20px;
 }
 
+/* line 18, main.scss */
 p {
-    padding: 20px;
-    font-size: 1.1em;
-    line-height: 1.2em;
+  padding: 20px;
+  font-size: 1.1em;
+  line-height: 1.2em;
 }
 
+/* line 24, main.scss */
 a {
-    padding: 20px;
+  padding: 20px;
 }
 
-
+/* line 28, main.scss */
 body {
-    margin: 0;
-    height: 99vh;
-    background: rgba(0,0,0,1);
+  margin: 0;
+  height: 99vh;
+  background: black;
 }
 
+/* line 34, main.scss */
 .paint {
-    width: 95%;
-    height: 94%;
-    border: 1px solid black;
-    margin: 20px auto;
+  width: 95%;
+  height: 94%;
+  border: 1px solid black;
+  margin: 20px auto;
 }
 
+/* line 41, main.scss */
 table {
-    float: left;
+  float: left;
 }
 
+/* line 45, main.scss */
 td {
-    width: 4px;
-    height: 4px;
-    background-color: #fff;
-    cursor: crosshair;
+  width: 4px;
+  height: 4px;
+  background-color: #fff;
+  cursor: crosshair;
 }
 
+/* line 52, main.scss */
 .menu {
-    background-color: rgba(0,0,0,0.1);
-    height: 660px;
-    width: 495px;
-    float: right;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 660px;
+  width: 495px;
+  float: right;
 }
 
+/* line 59, main.scss */
 .blabla {
-    float: right;
-    width: 402px;
-    height: 100%;
-    background-color: #fff;
+  float: right;
+  width: 402px;
+  height: 100%;
+  background-color: #fff;
 }
 
+/* line 66, main.scss */
 .palette {
-    height: 100%;
-    width: 90px;
-    background-color: #fff;
-    float: left;
+  height: 100%;
+  width: 90px;
+  background-color: #fff;
+  float: left;
 }
 
+/* line 73, main.scss */
 .color {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 20px;
-    margin: 20px;
-    border-radius: 25px;
-    border: 1px solid black;
-    cursor: pointer;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+  margin: 20px;
+  border-radius: 25px;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
+/* line 83, main.scss */
 .k {
-    background-color: #000;
+  background-color: #000;
 }
 
+/* line 87, main.scss */
 .b {
-    background-color: #0687f8;
+  background-color: #0687f8;
 }
 
+/* line 91, main.scss */
 .r {
-    background-color: #f80606;
+  background-color: #f80606;
 }
 
+/* line 95, main.scss */
 .g {
-    background-color: #37d100;
+  background-color: #37d100;
 }
 
+/* line 99, main.scss */
 .y {
-    background-color: #fcdb02;
+  background-color: #fcdb02;
 }
 
+/* line 103, main.scss */
 .p {
-    background-color: #bd02fc;
+  background-color: #bd02fc;
 }
 
+/* line 107, main.scss */
 .o {
-    background-color: #fc5102;
+  background-color: #fc5102;
 }
 
+/* line 111, main.scss */
 .n {
-    background-color: #892b00;
+  background-color: #892b00;
 }
 
+/* line 115, main.scss */
 .w {
-    background-color: #fff;
+  background-color: #fff;
 }
