@@ -17,4 +17,13 @@ $(document).ready(function(){
         $('h1').replaceWith("<h1 style='color: " + color + ";'>Petit paint un peu nul</h1>");
     });
     
+    $(".plus").click(function() {
+        $('.blabla').animate({
+            width: "60%"
+        }, 1200);
+        $('.palette').animate({
+            width: "39.5%"
+        }, 1200);
+        $('.palette-plus .color').toggleClass('display');
+    });
 });
