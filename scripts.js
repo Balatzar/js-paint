@@ -16,7 +16,7 @@ $(document).ready(function(){
         $('td').off('mouseover')
     });
     
-    
+    $( "td" ).mousedown(function(){return false;});
     
     $('.color').click(function() {
         var color = $(this).css("background-color");
