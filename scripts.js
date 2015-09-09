@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    
     var className = "k";
     
     $('.color').click(function() {
@@ -6,11 +7,16 @@ $(document).ready(function(){
    });
     
     
-    $('td').on('click', function() {
+    $('td').on('mousedown', function() {
         $('td').on('mouseover', function() {
             $(this).toggleClass(className[0]);
         });
     });
+    $('td').on('mouseup', function() {
+        $('td').off('mouseover')
+    });
+    
+    
     
     $('.color').click(function() {
         var color = $(this).css("background-color");
