@@ -86,7 +86,7 @@ td {
 /* line 89, main.scss */
 .palette {
   height: 100%;
-  width: 20%;
+  width: 19.8%;
   background-color: #fff;
   float: left;
 }
@@ -108,78 +108,79 @@ td {
   margin: 18px;
   margin-bottom: 10px;
   margin-top: 10px;
+  margin-left: 23px;
   border-radius: 25px;
   border: 1px solid black;
   cursor: pointer;
   float: left;
 }
 
-/* line 120, main.scss */
+/* line 121, main.scss */
 .plus {
   background-image: url();
 }
 
-/* line 125, main.scss */
+/* line 126, main.scss */
 .k {
   background-color: #000;
 }
 
-/* line 129, main.scss */
+/* line 130, main.scss */
 .b {
   background-color: #0687f8;
 }
 
-/* line 133, main.scss */
+/* line 134, main.scss */
 .r {
   background-color: #f80606;
 }
 
-/* line 137, main.scss */
+/* line 138, main.scss */
 .g {
   background-color: #37d100;
 }
 
-/* line 141, main.scss */
+/* line 142, main.scss */
 .y {
   background-color: #fcdb02;
 }
 
-/* line 145, main.scss */
+/* line 146, main.scss */
 .p {
   background-color: #bd02fc;
 }
 
-/* line 149, main.scss */
+/* line 150, main.scss */
 .o {
   background-color: #fc5102;
 }
 
-/* line 153, main.scss */
+/* line 154, main.scss */
 .n {
   background-color: #892b00;
 }
 
-/* line 157, main.scss */
+/* line 158, main.scss */
 .w {
   background-color: #fff;
 }
 
-/* line 161, main.scss */
+/* line 162, main.scss */
 .e {
   background-color: #757575;
 }
 
-/* line 165, main.scss */
+/* line 166, main.scss */
 .t {
   background-color: #74CBD1;
 }
 
-/* line 169, main.scss */
+/* line 170, main.scss */
 .c {
   background-color: #C1604A;
 }
 
-/* line 173, main.scss */
+/* line 174, main.scss */
 .i {
   background-color: #FF6AC1;
 }

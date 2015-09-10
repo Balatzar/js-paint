@@ -30,6 +30,6 @@ $(document).ready(function(){
         $('.palette').animate({
             width: "39.5%"
         }, 1200);
-        $('.palette-plus .color').toggleClass('display');
+        $('.palette-plus .color').addClass('display');
     });
 });
