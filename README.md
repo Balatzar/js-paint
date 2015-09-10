@@ -10,10 +10,6 @@ N'hésitez pas à forker le truc et à m'envoyer des pull requests !
 
 ### TODO
 
-Changer le bouton pour mettre plus de couleurs.
-
-Réparer le pinceau pour qu'il n'efface pas quand on repasse.
-
 Faire une vraie gomme.
 
 Faire un change-log "pop-up"

@@ -4,12 +4,11 @@ $(document).ready(function(){
     
     $('.color').click(function() {
         className = $(this).attr('class');
-   });
-    
+    });
     
     $('td').on('mousedown', function() {
         $('td').on('mouseover', function() {
-            $(this).toggleClass(className[0]);
+            $(this).addClass(className[0]);
         });
     });
     $('td').on('mouseup', function() {

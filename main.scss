@@ -1,4 +1,3 @@
-
 $blue: #0687f8;
 $red: #f80606;
 $green: #37d100;
@@ -118,9 +117,13 @@ td {
 .palette-plus .color {
     
 }
+
 .plus {
     @extend .color;
-    background-image: url();
+    background-image: url('plus-sign.png');
+    background-position: center center;
+    background-size: 120%;
+    border: 0;
 }
 
 .k {
