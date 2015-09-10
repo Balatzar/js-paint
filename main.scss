@@ -126,6 +126,16 @@ td {
     border: 0;
 }
 
+.icon-gomme {
+    background-image: url('gomme.png');
+    background-position: center center;
+    background-size: 100%;
+}
+
+.gomme {
+    cursor: url(gomme-small.png), auto;
+}
+
 .k {
     background-color: $black;
 }

@@ -4,6 +4,7 @@ $(document).ready(function(){
     
     $('.color').click(function() {
         className = $(this).attr('class');
+        $('td').removeClass('gomme');
     });
     
     $('td').on('mousedown', function() {
@@ -11,7 +12,7 @@ $(document).ready(function(){
             $(this).addClass(className[0]);
         });
     });
-    $('td').on('mouseup', function() {
+    $('body').on('mouseup', function() {
         $('td').off('mouseover')
     });
     
@@ -20,6 +21,10 @@ $(document).ready(function(){
     $('.color').click(function() {
         var color = $(this).css("background-color");
         $('h1').replaceWith("<h1 style='color: " + color + ";'>Petit paint un peu nul</h1>");
+    });
+    
+    $('.w').click(function() {
+        $('td').toggleClass('gomme');
     });
     
     $(".plus").click(function() {

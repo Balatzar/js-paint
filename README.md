@@ -10,7 +10,7 @@ N'hésitez pas à forker le truc et à m'envoyer des pull requests !
 
 ### TODO
 
-Faire une vraie gomme.
+Mieux gérer les classes pour fix les bugs
 
 Faire un change-log "pop-up"
 
@@ -19,10 +19,6 @@ Mettre un bouton GitHub.
 Permettre de changer la taille du pinceau.
 
 Changer le curseur en fonction de la taille du pinceau.
-
-Mettre des alertes jolies pour prévenir du "mode d'emploi" du paint.
-
-Changer le titre quand le paint sera moins nul.
 
 Mettre des animations plus jolies.
 

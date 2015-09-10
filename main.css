@@ -124,66 +124,78 @@ td {
 }
 
 /* line 129, main.scss */
+.icon-gomme {
+  background-image: url("gomme.png");
+  background-position: center center;
+  background-size: 100%;
+}
+
+/* line 135, main.scss */
+.gomme {
+  cursor: url(gomme-small.png), auto;
+}
+
+/* line 139, main.scss */
 .k {
   background-color: #000;
 }
 
-/* line 133, main.scss */
+/* line 143, main.scss */
 .b {
   background-color: #0687f8;
 }
 
-/* line 137, main.scss */
+/* line 147, main.scss */
 .r {
   background-color: #f80606;
 }
 
-/* line 141, main.scss */
+/* line 151, main.scss */
 .g {
   background-color: #37d100;
 }
 
-/* line 145, main.scss */
+/* line 155, main.scss */
 .y {
   background-color: #fcdb02;
 }
 
-/* line 149, main.scss */
+/* line 159, main.scss */
 .p {
   background-color: #bd02fc;
 }
 
-/* line 153, main.scss */
+/* line 163, main.scss */
 .o {
   background-color: #fc5102;
 }
 
-/* line 157, main.scss */
+/* line 167, main.scss */
 .n {
   background-color: #892b00;
 }
 
-/* line 161, main.scss */
+/* line 171, main.scss */
 .w {
   background-color: #fff;
 }
 
-/* line 165, main.scss */
+/* line 175, main.scss */
 .e {
   background-color: #757575;
 }
 
-/* line 169, main.scss */
+/* line 179, main.scss */
 .t {
   background-color: #74CBD1;
 }
 
-/* line 173, main.scss */
+/* line 183, main.scss */
 .c {
   background-color: #C1604A;
 }
 
-/* line 177, main.scss */
+/* line 187, main.scss */
 .i {
   background-color: #FF6AC1;
 }
