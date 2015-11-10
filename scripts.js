@@ -7,8 +7,8 @@ $(document).ready(function(){
         $('td').removeClass('gomme');
     });
     
-    $('td').on('mousedown', function() {
-        $('td').on('mouseover', function() {
+    $('table').find('td').on('mousedown', function() {
+        $('table').find('td').on('mouseover', function() {
             $(this).addClass(className[0]);
         });
     });
@@ -20,7 +20,7 @@ $(document).ready(function(){
     
     $('.color').click(function() {
         var color = $(this).css("background-color");
-        $('h1').replaceWith("<h1 style='color: " + color + ";'>Petit paint un peu nul</h1>");
+        $('h1').replaceWith("<h1 style='color: " + color + ";'>JS-Paint</h1>");
     });
     
     $('.w').click(function() {
